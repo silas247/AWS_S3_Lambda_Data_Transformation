@@ -4,7 +4,7 @@
 
 **Date:08/12/2022**
 
-##Project Architecture
+## Project Architecture
   -These AWS solutions are used in this project's workflow, which is detailed below, and can help your data              engineering operations.  
 
 
