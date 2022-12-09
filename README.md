@@ -1,4 +1,4 @@
-# DEMO PROJECT ON AWS S3 EVENT TRIGGERED LAMBDA FUNCTION, EVENT BRIDGE AND SNS NOTIFICATION
+# AWS S3 EVENT TRIGGERED LAMBDA FUNCTION, EVENT BRIDGE AND SNS NOTIFICATION
 
 **_[Author: Silas Ugorji](https://www.linkedin.com/in/silas-ugorji/)_**
 
@@ -18,4 +18,4 @@ This project demonstrates a simple usecase for data gathering(web-scraping), Sto
 * Trigger one event after another.
 * to get notifications when a task is complete/ encounters a failure.
 
-In the above workflow, we will be using a python script to scrape products from a Shopify website and load the data into an S3 bucket in csv format. The script is the **_[scrape_shopify.py]([(https://github.com/silas247/AWS_S3_Lambda_Data_Transformation/blob/main/scrape_data.py)])_** file. The automation is as follows;
+In the above workflow, we will be using a python script to scrape products from a Shopify website and load the data into an S3 bucket in csv format. The script is the **_[scrape_shopify.py](https://github.com/silas247/AWS_S3_Lambda_Data_Transformation/blob/main/scrape_data.py)_** file. The automation is as follows;
