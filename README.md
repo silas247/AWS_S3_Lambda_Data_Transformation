@@ -1,4 +1,4 @@
-# AWS S3 EVENT TRIGGERED LAMBDA FUNCTION, EVENT BRIDGE AND SNS NOTIFICATION
+# AWS S3 EVENT TRIGGERED LAMBDA FUNCTION, EVENTBRIDGE AND SNS NOTIFICATION
 
 **_[Author: Silas Ugorji](https://www.linkedin.com/in/silas-ugorji/)_**
 
@@ -29,4 +29,4 @@ In the first stage of the above workflow, we will be using a python script to sc
 ### Stage two
 
 * Immediately a file arrives the raw zone of your s3 bucket (data lake).
-An s3 Put event is Triggered and subsequently makes a call to another Lambda function . 
+An s3 Put event is Triggered and subsequently makes a call to another Lambda function. The Lambda function will run this **_[process_data.py](https://github.com/silas247/AWS_S3_Lambda_Data_Transformation)**_ file.
