@@ -29,4 +29,23 @@ In the first stage of the above workflow, we will be using a python script to sc
 ### Stage two
 
 * Immediately a file arrives the raw zone of your s3 bucket (data lake).
-An s3 Put event is Triggered and subsequently makes a call to another Lambda function. The Lambda function will run this **_[process_data.py](https://github.com/silas247/AWS_S3_Lambda_Data_Transformation)**_ file.
+An S3 Put event is Triggered and subsequently makes a call to another Lambda function. The Lambda function will run this **_[process_data.py](https://github.com/silas247/AWS_S3_Lambda_Data_Transformation)_** file.
+
+* Lastly once a transaction stream is processed and written to the processed zone of our s3 bucket, we want our s3 bucket put event to also trigger an email using SNS (Simple Notification Service) to let us know some details about the workload like runtime, and some metadata of what was put into the s3 bucket.
+
+    * N/B : SNS helps us create Topics that users can subscribe to in order to be able to receive simple notification on events. This can be either email or SMS.
+
+We also want to be able to check our logs using Cloudwatch.
+
+    * N/B : Cloudwatch is a monitoring and observability service that helps us monitor applications/infrastructure on AWS. In simple terms, this service allows us to see logs for events used on AWS. Each log is stored with a corresponding timestamp for easy tracking.
+
+## Prerequisites
+
+- An AWS account (Free)
+- Basic Understanding of the above workflow and what we are tring to achieve
+- 1st Lambda code for getting data in `scrape_shopify.py` - from repository
+- 2nd Lambda code for transforming the data in the raw zone in 'process_data.py'  - from repository
+
+
+
+
