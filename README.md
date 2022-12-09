@@ -37,12 +37,11 @@ An S3 Put event is Triggered and subsequently makes a call to another Lambda fun
    We also want to be able to check our logs using Cloudwatch.
    * N/B : Cloudwatch is a monitoring and observability service that helps us monitor applications/infrastructure on AWS. In simple terms, this service allows us to see logs for events used on AWS. Each log is stored with a corresponding timestamp for easy tracking.
 
-## Prerequisites
-
-- An AWS account (Free)
-- Basic Understanding of the above workflow and what we are tring to achieve
-- 1st Lambda code for getting data in `scrape_shopify.py` - from repository
-- 2nd Lambda code for transforming the data in the raw zone in 'process_data.py'  - from repository
+### Prerequisites
+   - An AWS account (Free)
+   - Basic Understanding of the above workflow and what we are tring to achieve
+   - 1st Lambda code for getting data in `scrape_shopify.py` - from repository
+   - 2nd Lambda code for transforming the data in the raw zone in 'process_data.py'  - from       repository
 
 
 
