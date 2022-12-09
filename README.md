@@ -13,6 +13,6 @@ The Workflow of this project is shown below depicting how the following AWS solu
 ## About The Project
 This project demonstrates a simple usecase for data gathering(web-scraping), Storage, transformation and automation of this process. Sometimes, as part of an ETL/ELT process of data engineering, we save raw data from apps,scrapped data, etc to your data lake in an unprocessed format (bronze form) and then begin downstream processing to either silver format or even a usable format for analytics like loading to an RDBMS (Relational Database Management System) or using Athena to analyze the data. However, on some occassions you may want the following ;
 
-    *If the process would be recurrent, you may want to make it fully automated.
+    Markup : * If the process would be recurrent, you may want to make it fully automated.
     *Trigger one event after another
     *To get notifications when a task is complete/ encounters a failure.
