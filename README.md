@@ -17,3 +17,5 @@ This project demonstrates a simple usecase for data gathering(web-scraping), Sto
 * If the process would be recurrent, you may want to make it fully automated.
 * Trigger one event after another.
 * to get notifications when a task is complete/ encounters a failure.
+
+In the above workflow, we will be using a python script to scrape products from a Shopify website and load the data into an S3 bucket in csv format. The script is the **_[scrape_shopify.pyi]([https://www.linkedin.com/in/silas-ugorji/](https://github.com/silas247/AWS_S3_Lambda_Data_Transformation/blob/main/scrape_data.py))_** file. The automation is as follows;
