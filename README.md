@@ -21,7 +21,12 @@ This project demonstrates a simple usecase for data gathering(web-scraping), Sto
 In the first stage of the above workflow, we will be using a python script to scrape products from a Shopify website and load the data into an S3 bucket in csv format. The script is the **_[scrape_shopify.py](https://github.com/silas247/AWS_S3_Lambda_Data_Transformation/blob/main/scrape_data.py)_** file. The automation is as follows;
 ### Stage one
 
-* Scrape the data from the Shopify website of your choice, using **_[scrape_shopify.py](https://github.com/silas247/AWS_S3_Lambda_Data_Transformation/blob/main/scrape_data.py)_** file and dumping it a raw S3 bucket.
+* Scrape the data from the Shopify website of your choice, using **_[scrape_shopify.py](https://github.com/silas247/AWS_S3_Lambda_Data_Transformation/blob/main/scrape_data.py)_** file and dumping it into our target S3 bucket.
 * Automate the above using a Lambda function which will be triggered every morning using AWS EventBridge. 
     * N/B: Lambda is a serveless compute solution that can run your workloads . It can use either a python or node.js runtime as at the time of this writing. So in this case we have a python script running on Lambda to scrape the website and load the data into an S3 raw layer or zone. 
     * N/B: EventBridge Scheduler is a serverless scheduler that allows you to create, run, and manage tasks from one central, managed service. In this project, we will use it for CRON job which will trigger the Lambda function to run everyday at 6am.
+
+### Stage two
+
+* Immediately a file arrives the raw zone of your s3 bucket (data lake).
+An s3 Put event is Triggered and subsequently makes a call to another Lambda function . 
