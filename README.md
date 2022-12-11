@@ -69,19 +69,9 @@ Now let us set up our 1st lambda function which is going to be at the heart of o
 * #### b) - While creating the Lambda Function, set up the IAM role for the lambda function On AWS, IAM stands for Identity Access Management. and is used to define roles and policies that different users/services can assume within your cloud infrastructure. It helps with managing secure access to services. Read/write access and scope can be configured on a defined role and also be re-used across similar workflows on the AWS cloud. Below we call it lambdas3ReadRole .
 -- 
 
- 
+* #### c) Copy the script from the lambda_function.py file on this github repository and paste it within that of your newly created lambda function
+**_[1st_lambda_function.py](https://github.com/silas247/AWS_S3_Lambda_Data_Transformation/blob/main/lambda_images/1st_lambda_function.py)_**
 
-Regards
-
-Silas Ugorji |Director
-
-MSc in Management
-University of Salford, UK
-T: +44 161 737 4022 |Mobile: +44 7479799243
-
-VAT:GB283795354  
-
-225 Eccles New Road, Salford M5 4QG.
 
 
 
