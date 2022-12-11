@@ -55,3 +55,6 @@ Go to your AWS console and search for S3 follow the steps in the image below.
 
    * ### b) Give your bucket a name and leave the default settings and click create bucket.
  ![alt text](https://github.com/silas247/AWS_S3_Lambda_Data_Transformation/blob/main/s3-files/s3-2.JPG)
+ 
+   * ### c) Create the raw folder which will be the landing zone for the scapped CSV file using Lambda.
+ ![alt text](https://github.com/silas247/AWS_S3_Lambda_Data_Transformation/blob/main/s3-files/s3-3.JPG)
