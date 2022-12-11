@@ -50,4 +50,4 @@ An S3 Put event is Triggered and subsequently makes a call to another Lambda fun
 ### STEP 1 - Set Up an AWS S3 Bucket with one object(folder) raw.
 Go to your AWS console and search for S3 follow the steps in the image below.
    * ### a)
-          ![alt text](https://github.com/silas247/AWS_S3_Lambda_Data_Transformation/blob/main/s3-       files/S3_Bucket_1.png)
+        ![alt text](https://github.com/silas247/AWS_S3_Lambda_Data_Transformation/blob/main/s3-       files/S3_Bucket_1.png)
