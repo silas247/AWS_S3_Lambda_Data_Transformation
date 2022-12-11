@@ -66,11 +66,12 @@ Now let us set up our 1st lambda function which is going to be at the heart of o
 * #### a) Give your function a Name and select Python 3.8 as the runtime
 ![alt text](https://github.com/silas247/AWS_S3_Lambda_Data_Transformation/blob/main/lambda_images/lambda_Set_Up_1_permissions.png)
 
-* #### b) - While creating the Lambda Function, set up the IAM role for the lambda function On AWS, IAM stands for Identity Access Management. and is used to define roles and policies that different users/services can assume within your cloud infrastructure. It helps with managing secure access to services. Read/write access and scope can be configured on a defined role and also be re-used across similar workflows on the AWS cloud. Below we call it lambdas3ReadRole .
+* #### b)
+ While creating the Lambda Function, set up the IAM role for the lambda function On AWS, IAM stands for Identity Access Management. and is used to define roles and policies that different users/services can assume within your cloud infrastructure. It helps with managing secure access to services. Read/write access and scope can be configured on a defined role and also be re-used across similar workflows on the AWS cloud. Below we call it lambdas3ReadRole .
 -- 
 
-* #### c) Copy the script from the lambda_function.py file on this github repository and paste it within that of your newly created lambda function
-**_[1st_lambda_function.py](https://github.com/silas247/AWS_S3_Lambda_Data_Transformation/blob/main/lambda_images/1st_lambda_function.py)_**
+* #### c) Copy the script from the **_[1st_lambda_function.py](https://github.com/silas247/AWS_S3_Lambda_Data_Transformation/blob/main/lambda_images/1st_lambda_function.py)_** file on this github repository and paste it within that of your newly created lambda function. Remember to edit your aws_access_key_id and aws_secret_access_key.
+
 
 
 
