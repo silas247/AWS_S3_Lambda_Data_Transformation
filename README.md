@@ -49,14 +49,14 @@ An S3 Put event is Triggered and subsequently makes a call to another Lambda fun
 
 ### STEP 1 - Set Up an AWS S3 Bucket with one object(folder) raw.
 Go to your AWS console and search for S3 follow the steps in the image below.
-   * ### a)
+   * #### a)
 
 ![alt text](https://github.com/silas247/AWS_S3_Lambda_Data_Transformation/blob/main/s3-files/S3_Bucket_1.png)
 
-   * ### b) Give your bucket a name and leave the default settings and click create bucket.
+   * #### b) Give your bucket a name and leave the default settings and click create bucket.
  ![alt text](https://github.com/silas247/AWS_S3_Lambda_Data_Transformation/blob/main/s3-files/s3-2.JPG)
  
-   * ### c) Create the raw folder which will be the landing zone for the scapped CSV file using Lambda.
+   * #### c) Create the raw folder which will be the landing zone for the scapped CSV file using Lambda.
  ![alt text](https://github.com/silas247/AWS_S3_Lambda_Data_Transformation/blob/main/s3-files/s3-3.JPG)
 
 ### STEP 2 - Set up the first Lambda Function 
