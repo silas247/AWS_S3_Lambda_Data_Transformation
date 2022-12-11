@@ -16,7 +16,7 @@ def lambda_handler(event, context):
     
     
     #Url of the website to be scrapped.
-    url = "https://afrobuy.co.uk"
+    url = "https://negativeunderwear.com/"
     #This is the parent link which has a high level data of the products
     parents = scraper.get_products(url)
     #This is the child link with the  
@@ -25,7 +25,7 @@ def lambda_handler(event, context):
     df = pd.DataFrame(children)
     
     s3 = boto3.client('s3', aws_access_key_id=' Put your access key here', aws_secret_access_key='Put your access key here')
-    bucket = 'afrobuy-shopify-products' # already created on S3
+    bucket = 'nagative-raw-zone' # already created on S3
     
     #write to buffer memory
     csv_buffer = StringIO()
@@ -33,7 +33,7 @@ def lambda_handler(event, context):
     
     #write to s3 folder
     s3_resource = boto3.resource('s3')
-    s3_resource.Object(bucket, f"raw/afrobuy_products_{year}_{month}_{day}_{hour}_{min}.csv").put(Body=csv_buffer.getvalue())
+    s3_resource.Object(bucket, f"raw/negativeunderwear_products_{year}_{month}_{day}_{hour}_{min}.csv").put(Body=csv_buffer.getvalue())
 
 
     return {
