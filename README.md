@@ -53,3 +53,5 @@ Go to your AWS console and search for S3 follow the steps in the image below.
 
 ![alt text](https://github.com/silas247/AWS_S3_Lambda_Data_Transformation/blob/main/s3-files/S3_Bucket_1.png)
 
+   * ### b) Give your bucket a name and leave the default settings and click create bucket.
+ ![alt text](https://github.com/silas247/AWS_S3_Lambda_Data_Transformation/blob/main/s3-files/s3-2.JPG)
