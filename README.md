@@ -63,5 +63,5 @@ Go to your AWS console and search for S3 follow the steps in the image below.
 
 Now let us set up our 1st lambda function which is going to be at the heart of our data scraping from the target website. This Function would scrape the shopify website using the shopify module and we will use a pandas dataframe (in memory) and subsequently write it to the /raw directory of our s3 bucket. On your console, search for Lambda and follow the steps below.
 
-   * ### a) Give your function a Name and select Python 3.8 as runtime
+   * #### a) Give your function a Name and select Python 3.8 as runtime
  ![alt text](https://github.com/silas247/AWS_S3_Lambda_Data_Transformation/blob/main/lambda_images/lambda_Set_Up_1_permissions.png)
