@@ -104,15 +104,16 @@ While we can import this environment layer as a zipfile, To easily package this 
 
 Navigate back to your console, and search for cloud9 and follw the steps in the images below.
 
-* #### i] ![alt text](https://github.com/silas247/AWS_S3_Lambda_Data_Transformation/blob/main/lambda_images/lambda_Set_Up_5_policy.png)
-    i ] Project Workflow 17
+* #### i] ![alt text](https://github.com/silas247/AWS_S3_Lambda_Data_Transformation/blob/main/Cloud9/Cloud9_Set_Up1.png)
 
-    ii ] Project Workflow 18
+* #### ii] ![alt text](https://github.com/silas247/AWS_S3_Lambda_Data_Transformation/blob/main/Cloud9/Cloud9_Set_Up2.png)
 
-    iii ] Project Workflow 19
+* #### iii] ![alt text](https://github.com/silas247/AWS_S3_Lambda_Data_Transformation/blob/main/Cloud9/Cloud9_Set_Up3.png)
 
-    iv ] Project Workflow 20
+* #### iv] ![alt text](https://github.com/silas247/AWS_S3_Lambda_Data_Transformation/blob/main/Cloud9/Cloud9_Set_Up4.png)
 
+
+* #### v] ![alt text](https://github.com/silas247/AWS_S3_Lambda_Data_Transformation/blob/main/Cloud9/Cloud9_Set_Up5.png)
 
 
 
