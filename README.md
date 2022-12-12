@@ -155,7 +155,10 @@ We are going to create a new Lambda function that will be triggered to transform
 
 For Lambda to be triggered when an event occurs in s3, we need to add a new s3 trigger to this Lambda. In this case, we are interested in Put Events. Follow the steps below;
 
-* i] ![alt text](https://github.com/silas247/AWS_S3_Lambda_Data_Transformation/blob/main/EventBridge/EventBridge0.JPG)
+* i] Click on Add Trigger
+  ![alt text](https://github.com/silas247/AWS_S3_Lambda_Data_Transformation/blob/main/EventBridge/EventBridge0.JPG)
 
-* i] ![alt text] ![image](https://user-images.githubusercontent.com/46321827/207144222-03c85e26-699a-4b41-9929-ed29fc4b4176.png)
+* ii] On the bucket option, select the bucket that we first created ( this is the bucket that will trigger the Lambda fuction when a file lands). For EVENT TYPE, select PUT and put the folder path ie raw/ in the Prefix. 
+* 
+  ![image](https://user-images.githubusercontent.com/46321827/207144222-03c85e26-699a-4b41-9929-ed29fc4b4176.png)
 
