@@ -112,11 +112,11 @@ Navigate back to your console, and search for cloud9 and follw the steps in the 
 
 * #### iv] ![alt text](https://github.com/silas247/AWS_S3_Lambda_Data_Transformation/blob/main/Cloud9/Cloud9_Set_Up4.png)
 
-* #### v] Once you are done with the tasks above , click on 'Open IDE' to open up the command session of your EC-2 instance where you can now run your commands.
+* v] Once you are done with the tasks above , click on 'Open IDE' to open up the command session of your EC-2 instance where you can now run your commands.
 
-* #### vi ] Next, run the commands outlined in the **_[Cloud9](https://github.com/silas247/AWS_S3_Lambda_Data_Transformation/blob/main/Cloud9/Cloud9)_** file within the github repository. Copy and run them line by line.
+* vi ] Next, run the commands outlined in the **_[Cloud9](https://github.com/silas247/AWS_S3_Lambda_Data_Transformation/blob/main/Cloud9/Cloud9)_** file within the github repository. Copy and run them line by line.
 
-* #### vii ] After the above execution , this layer should now be accessible to our Lambda Function.  
+* vii ] After the above execution , this layer should now be accessible to our Lambda Function.  
 
 
 
