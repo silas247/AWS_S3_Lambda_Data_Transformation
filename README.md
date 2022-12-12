@@ -118,5 +118,8 @@ Navigate back to your console, and search for cloud9 and follw the steps in the 
 
 * vii ] After the above execution , this layer should now be accessible to our Lambda Function.  
 
+### STEP 4 - ADD Layer to LAMBDA Function
 
+In this step we would add the Layer created in Step 3 above to our Lambda Function. To do this, follow the images below;  
 
+* i ] On your Lambda Function Page, Scroll down to the Layer Section. 
