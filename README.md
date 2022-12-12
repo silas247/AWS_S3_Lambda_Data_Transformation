@@ -73,8 +73,13 @@ Now let us set up our 1st lambda function which is going to be at the heart of o
 
 ![alt text](https://github.com/silas247/AWS_S3_Lambda_Data_Transformation/blob/main/lambda_images/lambda_Set_Up_4_permissions.png)
 
-* #### d) In the Next 5 steps, we would modify the policy for the role we created for our Lambda function to also allow Lambda access to write to s3. Note that Failure to do this will result in an ####'Access Denied Error' as seen **_[here](https://github.com/silas247/AWS_S3_Lambda_Data_Transformation/blob/main/CloudWatch/CloudwatchErrors.png)_**
+* #### d) In the Next 5 steps, we would modify the policy for the role we created for our Lambda function to also allow Lambda access to write to s3. Note that Failure to do this will result in an 'Access Denied Error' as seen **_[here](https://github.com/silas247/AWS_S3_Lambda_Data_Transformation/blob/main/CloudWatch/CloudwatchErrors.png)_**
 
 
+* #### i] ![alt text](https://github.com/silas247/AWS_S3_Lambda_Data_Transformation/blob/main/lambda_images/lambda_Set_Up_5_permissions.png)
 
+* #### ii] ![alt text](https://github.com/silas247/AWS_S3_Lambda_Data_Transformation/blob/main/lambda_images/lambda_Set_Up_6_permissions.png)
 
+* #### iii] ![alt text](https://github.com/silas247/AWS_S3_Lambda_Data_Transformation/blob/main/lambda_images/lambda_Set_Up_7_permissions.png)
+
+* #### iv] ![alt text](https://github.com/silas247/AWS_S3_Lambda_Data_Transformation/blob/main/lambda_images/lambda_Set_Up_7_permissions.png)
