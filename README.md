@@ -129,3 +129,12 @@ In this step we would add the Layer created in Step 3 above to our Lambda Functi
 
 
 * iii ] ![alt text](https://github.com/silas247/AWS_S3_Lambda_Data_Transformation/blob/main/lambda_images/lambda_Set_Up_23_layer.png)
+
+
+### STEP 5 - ADD EventBridge to Trigger the Lambda on a daily basis (Cron Job)
+
+For this Lambda Function to be triggered on a daily basis, we will need to use EventBridge as a trigger for this task. 
+
+* i] ![alt text](https://github.com/silas247/AWS_S3_Lambda_Data_Transformation/blob/main/EventBridge/EventBridge0.JPG)
+
+* ii] ![alt text](https://github.com/silas247/AWS_S3_Lambda_Data_Transformation/blob/main/EventBridge/EventBridge1.JPG)
