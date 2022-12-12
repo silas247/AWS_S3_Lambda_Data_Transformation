@@ -151,9 +151,11 @@ We are going to create a new Lambda function that will be triggered to transform
 ### N/B: Also, remember to add a policy to be able to read the from the ealier s3 bucket which we created. 
 
 
-### STEP 8 - Configure s3 Events for Lambda
+### STEP 8 - Add s3 Trigger for Lambda
 
-For Lambda to be triggered when an event occurs in s3, we need to configire our s3 Events. In this case, we are interested in Put Events. Follow the steps below;
+For Lambda to be triggered when an event occurs in s3, we need to add a new s3 trigger to this Lambda. In this case, we are interested in Put Events. Follow the steps below;
 
 * i] ![alt text](https://github.com/silas247/AWS_S3_Lambda_Data_Transformation/blob/main/EventBridge/EventBridge0.JPG)
+
+* i] ![alt text] ![image](https://user-images.githubusercontent.com/46321827/207144222-03c85e26-699a-4b41-9929-ed29fc4b4176.png)
 
