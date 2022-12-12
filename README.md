@@ -71,7 +71,7 @@ Now let us set up our 1st lambda function which is going to be at the heart of o
 
 * #### c) Copy the script from the **_[1st_lambda_function.py](https://github.com/silas247/AWS_S3_Lambda_Data_Transformation/blob/main/lambda_images/1st_lambda_function.py)_** file on this github repository and paste it within that of your newly created lambda function. Remember to edit your aws_access_key_id and aws_secret_access_key.
 
-
+![alt text](https://github.com/silas247/AWS_S3_Lambda_Data_Transformation/blob/main/lambda_images/lambda_Set_Up_4_permissions.png)
 
 
 
