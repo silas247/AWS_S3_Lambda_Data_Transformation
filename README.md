@@ -138,3 +138,22 @@ For this Lambda Function to be triggered on a daily basis, we will need to use E
 * i] ![alt text](https://github.com/silas247/AWS_S3_Lambda_Data_Transformation/blob/main/EventBridge/EventBridge0.JPG)
 
 * ii] ![alt text](https://github.com/silas247/AWS_S3_Lambda_Data_Transformation/blob/main/EventBridge/EventBridge1.JPG)
+
+
+### STEP 6 - Create another S3 bucket.
+
+This bucket will be the destination or target where the file we will processed will be stored. Use the first step for this. The reason we will do this by not just creating another directory or folder is to avoid bucker recursion. We will name the bucket processed and a sub folder /processed.
+
+
+### STEP 7 - Create another Lambda Function
+We are going to create a new Lambda function that will be triggered to transform the file we have scrapped. Use ### Step 2 for this with this **_python_script(https://github.com/silas247/AWS_S3_Lambda_Data_Transformation/blob/main/transform_load.py)_**. 
+
+### N/B: Also, remember to add a policy to be able to read the from the ealier s3 bucket which we created. 
+
+
+### STEP 8 - Configure s3 Events for Lambda
+
+For Lambda to be triggered when an event occurs in s3, we need to configire our s3 Events. In this case, we are interested in Put Events. Follow the steps below;
+
+* i] ![alt text](https://github.com/silas247/AWS_S3_Lambda_Data_Transformation/blob/main/EventBridge/EventBridge0.JPG)
+
