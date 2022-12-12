@@ -98,7 +98,7 @@ For our Lambda Function to run properly, we would need to import the pandas and 
 * #### ix] ![alt text](https://github.com/silas247/AWS_S3_Lambda_Data_Transformation/blob/main/lambda_images/lambda_Set_Up_13_layerError.png)
 
 
-While we can import this environment layer as a zipfile, To easily package this layer on AWS, we can run some commands on **_[Cloud9]((https://github.com/silas247/AWS_S3_Lambda_Data_Transformation/blob/main/Cloud9/Cloud9)))_** against an EC-2 Instance.
+While we can import this environment layer as a zipfile, To easily package this layer on AWS, we can run some commands on **_[Cloud9](https://github.com/silas247/AWS_S3_Lambda_Data_Transformation/blob/main/Cloud9/Cloud9)))_** against an EC-2 Instance.
 
 ### STEP 3 : Package Python virtual environment as a Layer with Cloud9 interface on an EC2 Instance.
 
