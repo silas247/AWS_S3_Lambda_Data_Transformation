@@ -88,7 +88,7 @@ Now let us set up our 1st lambda function which is going to be at the heart of o
 
 * #### vi] ![alt text](https://github.com/silas247/AWS_S3_Lambda_Data_Transformation/blob/main/lambda_images/lambda_Set_Up_10_policy.png)
 
-* #### vii] ![alt text](https://github.com/silas247/AWS_S3_Lambda_Data_Transformation/blob/main/lambda_images/lambda_Set_Up_11_policy.png)
+* #### vii] ![alt text](https://github.com/silas247/AWS_S3_Lambda_Data_Transformation/blob/main/lambda_images/lambda_Set_Up_11_policy_attachment.png)
 
 * #### viii] Lastly review the policy to be sure it is in order.
- ![alt text](https://github.com/silas247/AWS_S3_Lambda_Data_Transformation/blob/main/lambda_images/lambda_Set_Up_12_policy.png)
+ ![alt text](https://github.com/silas247/AWS_S3_Lambda_Data_Transformation/blob/main/lambda_images/lambda_Set_Up_12_policy_Review.png)
