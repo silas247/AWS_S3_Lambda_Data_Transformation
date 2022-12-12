@@ -39,8 +39,8 @@ def lambda_handler(event, context):
     # s3_resource = boto3.resource('s3')
     s3_bucket_name2='nagative-processed-zone'
     # s3 = boto3.resource('s3',
-    #                     aws_access_key_id= 'AKIAQYDWQQBAFTLSIV5X',
-    #                     aws_secret_access_key='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')    
+    #                     aws_access_key_id= ' ',
+    #                     aws_secret_access_key='  ')    
         
     
     
