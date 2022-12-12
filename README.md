@@ -123,3 +123,9 @@ Navigate back to your console, and search for cloud9 and follw the steps in the 
 In this step we would add the Layer created in Step 3 above to our Lambda Function. To do this, follow the images below;  
 
 * i ] On your Lambda Function Page, Scroll down to the Layer Section. 
+![alt text](https://github.com/silas247/AWS_S3_Lambda_Data_Transformation/blob/main/lambda_images/lambda_Set_Up_21_layer.png)
+
+* ii ] ![alt text](https://github.com/silas247/AWS_S3_Lambda_Data_Transformation/blob/main/lambda_images/lambda_Set_Up_22_layer.png)
+
+
+* iii ] ![alt text](https://github.com/silas247/AWS_S3_Lambda_Data_Transformation/blob/main/lambda_images/lambda_Set_Up_23_layer.png)
