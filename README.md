@@ -92,3 +92,27 @@ Now let us set up our 1st lambda function which is going to be at the heart of o
 
 * #### viii] Lastly review the policy to be sure it is in order.
  ![alt text](https://github.com/silas247/AWS_S3_Lambda_Data_Transformation/blob/main/lambda_images/lambda_Set_Up_12_policy_Review.png)
+
+For our Lambda Function to run properly, we would need to import the pandas and Scrape Shopify library in a layer. This is because, by default, the pandas library does not come with the python 3.8 runtime on AWS. Below is a sample of Runtime error we would encounter if we tried to run our lambda function before adding the virtual environment layer contaning pandas.
+
+* #### ix] ![alt text](https://github.com/silas247/AWS_S3_Lambda_Data_Transformation/blob/main/lambda_images/lambda_Set_Up_13_layerError.png)
+
+
+While we can import this environment layer as a zipfile, To easily package this layer on AWS, we can run some commands on **_[Cloud9]((https://github.com/silas247/AWS_S3_Lambda_Data_Transformation/blob/main/Cloud9/Cloud9)))_** against an EC-2 Instance.
+
+### STEP 3 : Package Python virtual environment as a Layer with Cloud9 interface on an EC2 Instance.
+
+Navigate back to your console, and search for cloud9 and follw the steps in the images below.
+
+* #### i] ![alt text](https://github.com/silas247/AWS_S3_Lambda_Data_Transformation/blob/main/lambda_images/lambda_Set_Up_5_policy.png)
+    i ] Project Workflow 17
+
+    ii ] Project Workflow 18
+
+    iii ] Project Workflow 19
+
+    iv ] Project Workflow 20
+
+
+
+
