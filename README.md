@@ -162,3 +162,7 @@ For Lambda to be triggered when an event occurs in s3, we need to add a new s3 t
 * 
   ![image](https://user-images.githubusercontent.com/46321827/207144222-03c85e26-699a-4b41-9929-ed29fc4b4176.png)
 
+### STEP 9 - Set Up SNS Notification
+
+In Order for us to receive Mail alerts when our file is processed, we would create an SNS Topic to do this for us. On your Console, search for SNS and Follow the steps in the images below;
+
