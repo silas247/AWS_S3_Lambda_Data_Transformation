@@ -170,3 +170,20 @@ In Order for us to receive Mail alerts when our file is processed, we would crea
 
   ![alt text](https://github.com/silas247/AWS_S3_Lambda_Data_Transformation/blob/main/SNS/SNSTopic_1.png)
 
+* ii]  ![alt text](https://github.com/silas247/AWS_S3_Lambda_Data_Transformation/blob/main/SNS/SNSTopic_2.png)
+
+
+* iii]  ![alt text](https://github.com/silas247/AWS_S3_Lambda_Data_Transformation/blob/main/SNS/SNSTopic_3.png)
+
+
+* iv] Immediately after the subscription above , navigate to your inbox to find a mail that looks like the one shown below. Click Confirm. 
+
+![alt text](https://github.com/silas247/AWS_S3_Lambda_Data_Transformation/blob/main/SNS/SNSTopic_4.png)
+
+
+* v] After confirmation, you should see a page that looks like the one shown below.   
+![alt text](https://github.com/silas247/AWS_S3_Lambda_Data_Transformation/blob/main/SNS/SNSTopic_5.png)
+
+
+* vi] When you go back to the SNS Console, you should now see the confirmed status on that subscription. It should look similar to the image shown below. 
+![alt text](https://github.com/silas247/AWS_S3_Lambda_Data_Transformation/blob/main/SNS/SNSTopic_6.png)
