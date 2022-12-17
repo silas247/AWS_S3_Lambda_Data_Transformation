@@ -166,3 +166,7 @@ For Lambda to be triggered when an event occurs in s3, we need to add a new s3 t
 
 In Order for us to receive Mail alerts when our file is processed, we would create an SNS Topic to do this for us. On your Console, search for SNS and Follow the steps in the images below;
 
+* i] Create a topic with any name and description, then proceed to set up an Access Policy for the Topic. 
+
+  ![alt text](https://github.com/silas247/AWS_S3_Lambda_Data_Transformation/blob/main/SNS/SNSTopic_1.png)
+
