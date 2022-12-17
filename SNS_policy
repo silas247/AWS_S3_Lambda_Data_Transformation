@@ -12,10 +12,10 @@
         "Resource": "arn:aws:sns:us-east-1:YourAccountID:Mailer",
         "Condition": {
           "StringEquals": {
-            "aws:SourceAccount": "051788152896"
+            "aws:SourceAccount": "YourAccountID"
           },
           "ArnLike": {
-            "aws:SourceArn": "arn:aws:s3:*:*:nagative-processed-zone"
+            "aws:SourceArn": "arn:aws:s3:*:*:AWS_s3"
           }
         }
       }
