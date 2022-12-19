@@ -187,3 +187,11 @@ In Order for us to receive Mail alerts when our file is processed, we would crea
 
 * vi] When you go back to the SNS Console, you should now see the confirmed status on that subscription. It should look similar to the image shown below. 
 ![alt text](https://github.com/silas247/AWS_S3_Lambda_Data_Transformation/blob/main/SNS/SNSTopic_6.png)
+
+
+### EXECUTION
+
+With everything now set up, we can go ahead to run our first Lambda Function to see how the data is loaded into our first s3 bucket. Follow the steps below to see the Magic afterwards !! ..
+  ### 1. a] Navigate to the first Lambda and run it.
+  
+![alt text](https://github.com/silas247/AWS_S3_Lambda_Data_Transformation/blob/main/observation/obs1.JPG)
