@@ -195,3 +195,26 @@ With everything now set up, we can go ahead to run our first Lambda Function to 
   ### 1. a] Navigate to the first Lambda and run it.
   
 ![alt text](https://github.com/silas247/AWS_S3_Lambda_Data_Transformation/blob/main/observation/obs1.JPG)
+
+ ### b] Go to s3 and check the first bucket(raw) we created
+  
+![alt text](https://github.com/silas247/AWS_S3_Lambda_Data_Transformation/blob/main/observation/obs3.JPG)
+
+ As we can see the file has now been loaded into the folder and then this will trigger the 2nd Lambda which will process the file and load into the processed bucket. 
+ 
+### c] Check the processed bucket to see if the file is there. This is the final checking stage. 
+
+![alt text](https://github.com/silas247/AWS_S3_Lambda_Data_Transformation/blob/main/observation/obs4.JPG)
+ 
+ 
+ ### CLOSING NOTES
+
+    * Congratulations on Successfully completing this project on AWS. Amazon Web Services like other major cloud providers, gives an array of cloud computing services which can greatly increase efficiency of engineering teams within any establishment.
+
+    * You might have run into errors while executing this project, That is part of the learning/implementation journey. Do well to check out AWS Community pages /Faq pages for solutions to your errors. You can also contact me via Linkedin @silas-ugorji.
+
+    * Depending on your Use Case for similar operations, AWS advices that you use two different s3 buckets to avoid conflicts during transactions within one bucket.
+
+    * In the course of developing this project, this **_[video] (https://www.youtube.com/watch?v=H_rRlnSw_5s&feature=youtu.be)_** from Be A Better Dev on Youtube was helpful. You can check it out.
+
+    * If you are not using this in production, Remember to delete the resources you used for this project to avoid encountering unprecedented bills. In my case, i used these services on the Free Tier provided by AWS, hence my bill was $0 as seen here.
