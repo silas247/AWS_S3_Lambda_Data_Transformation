@@ -215,7 +215,8 @@ As we can see the file has now been loaded into the folder and then this will tr
 
 * Depending on your Use Case for similar operations, AWS advises that you use two different s3 buckets to avoid conflicts during transactions within one bucket.
 
-* In the course of developing this project, this **_[video](https://www.youtube.com/watch?v=H_rRlnSw_5s&feature=youtu.be)_** from Be A Better Dev on Youtube was helpful. You can check it out.
+* In the course of developing this project, this **_[video](https://www.youtube.com/watch?v=H_rRlnSw_5s&feature=youtu.be)_** from Be A Better Dev on Youtube was helpful. You can check it out. 
+Special thanks to **_[Victor Iwuoha] (https://www.linkedin.com/in/viciwuoha/)_**
 **_[scrape_shopify.py](https://github.com/silas247/AWS_S3_Lambda_Data_Transformation/blob/main/scrape_data.py)_**
 
 * If you are not using this in production, Remember to delete the resources you used for this project to avoid encountering unprecedented bills. In my case, I used these services on the Free Tier provided by AWS, hence my bill was $0 as seen here.
